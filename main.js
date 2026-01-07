@@ -26,12 +26,8 @@ document.getElementById("contactForm").addEventListener("submit", function(e){
     const message = document.getElementById("message").value;
 
     const numeroWhatsApp = "237680279842";
-    const texte = 'Bonjour, je vous contacte depuis votre site Bunkys.%0A%0A' + 
-    'Nom: ${nom}%0A' + 
-    'Email: ${email}%0A' +
-    'Sujet: ${sujet}%0A' +
-    'Message: ${message}%0A';
+    const texte = 'Bonjour, je vous contacte depuis votre site Bunkys.%0A%0ANom: ' + nom + '%0AEmail: ' + email + '%0ASujet: ' + sujet + '%0AMessage: ' + message + '%0A';
 
-    const url = 'https://wa.me/${numeroWhatsApp}?text=${text}';
+    const url = 'https://wa.me/237680279842?text=' + texte;
     window.open(url, "_blank");
 });
