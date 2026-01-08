@@ -59,8 +59,8 @@ textarea {
 }
 
 button {
-  background-color: var(--bs-orange);
-  color: black;
+  background-color: #111827;
+  color: white;
   border: none;
   border-radius: 10px;
   padding: 10px;
