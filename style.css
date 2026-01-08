@@ -25,6 +25,7 @@
   background-color: var(--bs-orange);
   padding: 5px 10px;
   border-radius: 10px;
+  color: white;
 }
 .banner .button .bouton1:hover {
   border: 2px solid white;
@@ -34,8 +35,8 @@
 }
 
 .banner .button .bouton2 {
-  border: 2px solid white;
-  background-color: transparent;
+  border: none;
+  background-color: white;
   cursor: pointer;
   color: var(--bs-orange);
   font-weight: bold;
@@ -45,10 +46,10 @@
   border-radius: 10px;
 }
 .banner .button .bouton2:hover{
-  border: none;
+  border: 2px solid orange;
   font-weight: bold;
-  background-color: var(--bs-orange);
-  color: black;
+  background-color: transparent;
+  color: white;
 }
 
 .semi-gallery button {
@@ -59,6 +60,7 @@
   background-color: var(--bs-orange);
   padding: 5px 10px;
   border-radius: 10px;
+  box-shadow: 0 4px 8px #00000059;
 }
 .semi-gallery button:hover {
   border: 2px solid orange;
@@ -133,6 +135,7 @@
   background-color: var(--bs-orange);
   padding: 5px 10px;
   border-radius: 10px;
+  box-shadow: 0 4px 8px #00000059;
 }
 .about .about-text button:hover {
   border: 2px solid orange;
