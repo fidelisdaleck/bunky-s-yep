@@ -4,7 +4,21 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
+.btn button{
+  border: none;
+  font-weight: bold;
+  width: 200px;
+  background-color: var(--bs-orange);
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+}
+.btn button:hover {
+  border: 2px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--bs-orange);
+}
 
 .banner {
   display: flex;
